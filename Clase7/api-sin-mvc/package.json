@@ -1,0 +1,21 @@
+{
+  "name": "api-sin-mvc",
+  "version": "1.0.0",
+  "description": "api sin mvc",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node .",
+    "watch": "node --watch .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express"
+  ],
+  "author": "Debo Rolon",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
