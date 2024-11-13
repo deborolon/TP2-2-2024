@@ -1,0 +1,26 @@
+{
+  "name": "clase13",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env .",
+    "watch": "node --env-file=.env --watch .",
+    "test": "mocha src/test/products.integration.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1",
+    "joi": "^17.13.3",
+    "mongodb": "^6.10.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.2.0",
+    "chai": "^5.1.2",
+    "mocha": "^10.8.2",
+    "supertest": "^7.0.0"
+  }
+}
